@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary App Colors -->
+    <color name="colorPrimary">#40C4FF</color> <!-- Light Blue for buttons and highlights -->
+    <color name="colorPrimaryDark">#0094CC</color>
+    <color name="colorAccent">#40C4FF</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- For main headings -->
+    <color name="textColorSecondary">#757575</color> <!-- For subtitles and body text -->
+
+    <!-- Standard Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Color for the 'On' state of the switch track -->
+    <color name="primaryLight">#80D8FF</color>
+
+    <!-- Background Colors -->
+    <color name="light_gray_background">#F7F8FA</color> <!-- Main screen background -->
+    <color name="icon_background">#F0F0F0</color> <!-- For permission screen icons -->
+
+    <!-- ... other colors ... -->
+    <color name="history_background">#FFF9F7</color>
+    <color name="history_feeling_text">#D96D6D</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <color name="welcome_background">#E0EBEB</color>
+    <color name="signup_background">#FEF7F6</color>
+    <color name="signup_button_red">#ED505D</color>
+    <color name="signup_field_background">#F1EAE8</color>
+
 </resources>

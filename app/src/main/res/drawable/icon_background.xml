@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- This defines the solid fill color of the shape. -->
+    <!-- The color is a light blue-grey to match the design. -->
+    <solid android:color="#EAF0F4" />
+
+    <!-- This rounds the corners of the rectangle. -->
+    <corners android:radius="12dp" />
+
+</shape>

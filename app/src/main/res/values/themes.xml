@@ -1,9 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
+    <!-- Base application theme -->
     <style name="Base.Theme.SyncMiles" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary branding -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryContainer">@color/primaryLight</item>
+
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/light_gray_background</item>
+        <item name="colorSurface">@color/welcome_background</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+
+        <!-- Button styling -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorError">@color/signup_button_red</item>
+
+        <!-- Switch track color -->
+        <item name="colorControlActivated">@color/primaryLight</item>
+
+        <!-- Progress bar / accent elements -->
+        <item name="colorTertiary">@color/teal_200</item>
     </style>
 
+    <!-- Public theme alias -->
     <style name="Theme.SyncMiles" parent="Base.Theme.SyncMiles" />
 </resources>

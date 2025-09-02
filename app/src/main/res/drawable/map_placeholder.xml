@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base map background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E8F5E9" /> <!-- A very light green -->
+        </shape>
+    </item>
+
+    <!-- Vector drawing of map elements -->
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="200dp"
+            android:height="100dp"
+            android:viewportWidth="200"
+            android:viewportHeight="100">
+
+            <!-- Wavy line representing a river or road -->
+            <path
+                android:pathData="M10,80 Q50,50 90,60 T150,50 T190,70"
+                android:strokeWidth="2"
+                android:strokeColor="#A5D6A7" /> <!-- A soft green -->
+
+            <!-- Another path for a road -->
+            <path
+                android:pathData="M5,20 Q40,30 80,15 T140,25 T195,10"
+                android:strokeWidth="1.5"
+                android:strokeColor="#C5E1A5" /> <!-- A lighter green -->
+
+            <!-- A small location marker -->
+            <path
+                android:fillColor="#4CAF50"
+                android:pathData="M95,30 A10,10 0 1,1 105,30 A10,10 0 1,1 95,30" />
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M97,30 A3,3 0 1,1 103,30 A3,3 0 1,1 97,30" />
+
+        </vector>
+    </item>
+
+</layer-list>
